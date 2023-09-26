@@ -43,7 +43,7 @@ const TypingText = () => {
 
   return (
     <div className="text-orange-500">
-      <p className="">{displayText}</p>
+      <p>{displayText}</p>
     </div>
   );
 };
