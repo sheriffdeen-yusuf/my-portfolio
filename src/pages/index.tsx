@@ -12,7 +12,7 @@ function Index() {
         <div className="md:b-4 grid grid-cols-1 items-center justify-center gap-12 pb-40 md:grid-cols-2">
           <div>
             <h1 className="text-5xl font-semibold">
-              Hi, i'm Sheriffdeen <TypingText />
+              Hi, i am Sheriffdeen <TypingText />
             </h1>
             <p className="mt-8 text-lg font-medium">
               Experienced Frontend Developer with 1+ year of expertise in

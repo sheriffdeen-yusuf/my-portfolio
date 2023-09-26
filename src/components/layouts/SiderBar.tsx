@@ -15,7 +15,7 @@ function SiderBar() {
           <User2 className="h-10 w-10 " />
         </button>
       </Link>
-      <Link href="/">
+      <Link href="/projects">
         <button className="rounded-full bg-stone-600 p-4 shadow-lg">
           <FolderOpenDot className="h-10 w-10 " />
         </button>
