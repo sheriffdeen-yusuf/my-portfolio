@@ -7,7 +7,7 @@ function Index() {
     <AppLayout>
       <div className="grid-col-1 grid gap-8 px-20 py-10 md:grid-cols-2">
         {/* 1 project */}
-        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg">
+        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg dark:bg-stone-700">
           <Image
             className="h-48 w-full object-cover"
             src="/foodlify.png"
@@ -16,8 +16,8 @@ function Index() {
             height={400}
           />
           <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">Project Title</div>
-            <p className="text-base text-gray-700">
+            <div className="mb-2 text-xl font-bold">Foodlify Admin</div>
+            <p className="text-base text-gray-700 dark:text-stone-300">
               Foodlify admin dashbord Elevating Culinary Management...
             </p>
           </div>
@@ -31,7 +31,7 @@ function Index() {
           </div>
         </div>
         {/* p 2 */}
-        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg">
+        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg dark:bg-stone-700">
           <Image
             className="h-48 w-full object-cover"
             src="/movie.png"
@@ -40,8 +40,8 @@ function Index() {
             height={400}
           />
           <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">Project Title</div>
-            <p className="text-base text-gray-700">
+            <div className="mb-2 text-xl font-bold">Movie DB</div>
+            <p className="text-base text-gray-700 dark:text-stone-300">
               StreamHub is your go-to online movie app, offering an extensive
               and ever-expanding collection of movies and TV shows. With a
               user-friendly interface and seamless streaming experience,
@@ -59,7 +59,7 @@ function Index() {
           </div>
         </div>
         {/* p 3 */}
-        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg">
+        <div className="max-w-md overflow-hidden  rounded-xl bg-white shadow-lg dark:bg-stone-700">
           <Image
             className="h-48 w-full object-cover"
             src="/dnd.png"
@@ -68,8 +68,8 @@ function Index() {
             height={400}
           />
           <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">Project Title</div>
-            <p className="text-base text-gray-700">
+            <div className="mb-2 text-xl font-bold">Draggzie</div>
+            <p className="text-base text-gray-700 dark:text-stone-300">
               Responsive image gallery with login, drag-and-drop, search. Built
               with React/Next.js. Easy and elegant!
             </p>
@@ -84,7 +84,7 @@ function Index() {
           </div>
         </div>
         {/* p 4 */}
-        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg">
+        <div className="max-w-md overflow-hidden  rounded-xl bg-white shadow-lg dark:bg-stone-700">
           <Image
             className="h-48 w-full object-cover"
             src="/hng.png"
@@ -93,8 +93,8 @@ function Index() {
             height={400}
           />
           <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">Project Title</div>
-            <p className="text-base text-gray-700">
+            <div className="mb-2 text-xl font-bold">profile card</div>
+            <p className="text-base text-gray-700 dark:text-stone-300">
               hngx frontend intership program, task 1
             </p>
           </div>
