@@ -10,7 +10,7 @@ function SiderBar() {
           <Home className="h-10 w-10" />
         </button>
       </Link>
-      <Link href="/">
+      <Link href="/about">
         <button className="rounded-full bg-stone-600 p-4 shadow-lg">
           <User2 className="h-10 w-10 " />
         </button>
@@ -20,7 +20,7 @@ function SiderBar() {
           <FolderOpenDot className="h-10 w-10 " />
         </button>
       </Link>
-      <Link href="/">
+      <Link href="/contact">
         <button className="rounded-full bg-stone-600 p-4 shadow-md">
           <Phone className="h-10 w-10 " />
         </button>

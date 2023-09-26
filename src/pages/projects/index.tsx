@@ -87,7 +87,7 @@ function Index() {
         <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg">
           <Image
             className="h-48 w-full object-cover"
-            src="/dnd.png"
+            src="/hng.png"
             alt="Work Image"
             width={300}
             height={400}
@@ -95,13 +95,12 @@ function Index() {
           <div className="px-6 py-4">
             <div className="mb-2 text-xl font-bold">Project Title</div>
             <p className="text-base text-gray-700">
-              Description of your work goes here. You can provide details about
-              the project or any relevant information.
+              hngx frontend intership program, task 1
             </p>
           </div>
           <div className="px-6 py-4">
             <a
-              href="link-to-details-page"
+              href="https://meek-gumption-e15c88.netlify.app/"
               className="rounded-full bg-orange-500 px-4 py-2 font-bold text-white hover:bg-orange-600"
             >
               View Details

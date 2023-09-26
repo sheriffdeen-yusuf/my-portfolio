@@ -10,7 +10,7 @@ function Footer() {
           <Home className="h-6 w-6 md:h-10 md:w-10" />
         </button>
       </Link>
-      <Link href="/">
+      <Link href="/about">
         <button className="rounded-full bg-stone-600 p-4 shadow-lg">
           <User2 className="h-6 w-6 md:h-10 md:w-10" />
         </button>
@@ -20,7 +20,7 @@ function Footer() {
           <FolderOpenDot className="h-6 w-6 md:h-10 md:w-10" />
         </button>
       </Link>
-      <Link href="/">
+      <Link href="/contact">
         <button className="rounded-full bg-stone-600 p-4 shadow-md">
           <Phone className="h-6 w-6 md:h-10 md:w-10" />
         </button>
