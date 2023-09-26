@@ -44,9 +44,9 @@ function Index() {
             <p className="text-base text-gray-700">
               StreamHub is your go-to online movie app, offering an extensive
               and ever-expanding collection of movies and TV shows. With a
-              user-friendly interface and seamless streaming experience, it's
-              the perfect entertainment companion for film enthusiasts of all
-              ages.
+              user-friendly interface and seamless streaming experience,
+              it&apos;s the perfect entertainment companion for film enthusiasts
+              of all ages.
             </p>
           </div>
           <div className="px-6 py-4">
