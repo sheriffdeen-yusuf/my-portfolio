@@ -7,7 +7,7 @@ function AppLayout({ children }: any) {
   return (
     <>
       <Header />
-      <div className="grid  grid-cols-12">
+      <div className=" mt-12 grid  grid-cols-12  ">
         <div className="col-span-12 md:col-span-11 ">{children}</div>
         <div className="col-span-1">
           <SiderBar />

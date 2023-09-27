@@ -5,9 +5,12 @@ import { useTheme } from "next-themes";
 function ThemeToggle() {
   const { theme, setTheme } = useTheme();
   return (
-    <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-      <Sun className="block h-5 w-5 dark:hidden" />
-      <Moon className="hidden h-5 w-5 dark:block" />
+    <button
+      className="rounded-full bg-stone-300 p-3 shadow-sm dark:bg-stone-600"
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+    >
+      <Sun className="block h-6 w-6 dark:hidden  " />
+      <Moon className="hidden h-6 w-6 dark:block" />
     </button>
   );
 }

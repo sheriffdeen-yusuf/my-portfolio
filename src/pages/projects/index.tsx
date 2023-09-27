@@ -5,7 +5,7 @@ import React from "react";
 function Index() {
   return (
     <AppLayout>
-      <div className="grid-col-1 grid gap-8 px-20 py-10 md:grid-cols-2">
+      <div className="grid-col-1 mb-24 grid  gap-8 px-10 py-10 md:grid-cols-2 md:px-20">
         {/* 1 project */}
         <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg dark:bg-stone-700">
           <Image

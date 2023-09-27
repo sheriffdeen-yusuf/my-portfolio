@@ -8,10 +8,10 @@ import Link from "next/link";
 function Index() {
   return (
     <AppLayout>
-      <main className="h-full p-14 text-black dark:text-white">
+      <main className=" h-full p-14 text-black dark:text-white">
         <div className="md:b-4 grid grid-cols-1 items-center justify-center gap-12 pb-40 md:grid-cols-2">
           <div>
-            <h1 className="text-5xl font-semibold">
+            <h1 className="text-2xl font-semibold md:text-5xl">
               Hi, i am Sheriffdeen <TypingText />
             </h1>
             <p className="mt-8 text-lg font-medium">
