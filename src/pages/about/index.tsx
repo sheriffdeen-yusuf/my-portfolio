@@ -2,6 +2,8 @@ import AppLayout from "@/components/layouts/AppLayout";
 import React from "react";
 import { ArrowDownToLine } from "lucide-react";
 import SkillProgressBar from "@/components/SkillProgressBar";
+import Divder from "../../components/Divder";
+import Tools from "../../components/Tools";
 const skills = [
   { skill: "HTML", percentage: 90 },
   { skill: "CSS", percentage: 75 },
@@ -44,6 +46,7 @@ function index() {
           <h1 className="mb-4 text-center text-5xl font-semibold text-orange-700">
             Skills
           </h1>
+          <Divder />
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 ">
             {skills.map((s, index) => (
               <SkillProgressBar
@@ -53,6 +56,15 @@ function index() {
               />
             ))}
           </div>
+        </div>
+
+        {/* tools */}
+        <div className="container mx-auto mb-6 py-8">
+          <h1 className="mb-4 text-center text-5xl font-semibold text-orange-700">
+            Tools
+          </h1>
+          <Divder />
+          <Tools />
         </div>
       </div>
     </AppLayout>
