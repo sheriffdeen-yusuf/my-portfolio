@@ -1,112 +1,69 @@
 import AppLayout from "@/components/layouts/AppLayout";
 import Image from "next/image";
 import React from "react";
+import ProjectCard from "./ProjectCard";
+import { ProjectCardProps } from "@/interface/app.interface";
+import { title } from "process";
+
+const projects = [
+  {
+    title: `The Wild Oasis`,
+    desc: `An advanced hotel management system that provides a comprehensive dashboard for efficient hotel operations, including room bookings, guest check-ins, and check-outs, enhancing the guest experience and simplifying staff management`,
+    image: "/oasis.png",
+    link: "https://lekenz-the-wild-oasis.netlify.app/",
+  },
+  {
+    title: `World wise`,
+    desc: `Explore the globe and keep a digital travel diary with our web app. Easily mark and share the places you've visited worldwide, creating a personalized map of your adventures.`,
+    image: "/worldwise.png",
+    link: "https://lekenz-worldwise.netlify.app/",
+  },
+  {
+    title: `Pizzas Online`,
+    desc: `Order mouthwatering pizzas online, with a variety of toppings and
+    easy customization. Enjoy freshly baked goodness delivered to your
+    door!`,
+    image: "/pizza.png",
+    link: "https://lekenz-fast-react-pizza.netlify.app/",
+  },
+  {
+    title: `Movie DB`,
+    desc: `StreamHub is your go-to online movie app, offering an extensive
+    and ever-expanding collection of movies and TV shows. With a
+    user-friendly interface and seamless streaming experience,
+    it&apos;s the perfect entertainment companion for film enthusiasts
+    of all ages.`,
+    image: "/movie.png",
+    link: "https://lekenz-movie-db.netlify.app/",
+  },
+  {
+    title: `Draggzie`,
+    desc: `  Responsive image gallery with login, drag-and-drop, search. Built
+    with React/Next.js. Easy and elegant!`,
+    image: "/dnd.png",
+    link: "https://playful-rolypoly-f83119.netlify.app/",
+  },
+  {
+    title: `profile card`,
+    desc: `   hngx frontend intership program, task 1`,
+    image: "/hng.png",
+    link: "https://meek-gumption-e15c88.netlify.app/",
+  },
+];
 
 function Index() {
   return (
     <AppLayout>
       <div className="grid-col-1 mb-24 grid  gap-8 px-10 py-10 md:grid-cols-2 md:px-20">
-        {/* 1 project */}
-        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg dark:bg-stone-700">
-          <Image
-            className="h-48 w-full object-cover"
-            src="/foodlify.png"
-            alt="Work Image"
-            width={300}
-            height={400}
+        {projects.map(({ title, desc, image, link }, idx) => (
+          <ProjectCard
+            key={idx}
+            title={title}
+            desc={desc}
+            image={image}
+            link={link}
           />
-          <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">Foodlify Admin</div>
-            <p className="text-base text-gray-700 dark:text-stone-300">
-              Foodlify admin dashbord Elevating Culinary Management...
-            </p>
-          </div>
-          <div className="px-6 py-4">
-            <a
-              href="http://44.217.38.143/"
-              className="rounded-full bg-orange-500 px-4 py-2 font-bold text-white hover:bg-orange-600"
-            >
-              View Details
-            </a>
-          </div>
-        </div>
-        {/* p 2 */}
-        <div className=" max-w-md  overflow-hidden rounded-xl bg-white shadow-lg dark:bg-stone-700">
-          <Image
-            className="h-48 w-full object-cover"
-            src="/movie.png"
-            alt="Work Image"
-            width={300}
-            height={400}
-          />
-          <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">Movie DB</div>
-            <p className="text-base text-gray-700 dark:text-stone-300">
-              StreamHub is your go-to online movie app, offering an extensive
-              and ever-expanding collection of movies and TV shows. With a
-              user-friendly interface and seamless streaming experience,
-              it&apos;s the perfect entertainment companion for film enthusiasts
-              of all ages.
-            </p>
-          </div>
-          <div className="px-6 py-4">
-            <a
-              href="https://main--euphonious-heliotrope-5fe638.netlify.app/"
-              className="rounded-full bg-orange-500 px-4 py-2 font-bold text-white hover:bg-orange-600"
-            >
-              View Details
-            </a>
-          </div>
-        </div>
-        {/* p 3 */}
-        <div className="max-w-md overflow-hidden  rounded-xl bg-white shadow-lg dark:bg-stone-700">
-          <Image
-            className="h-48 w-full object-cover"
-            src="/dnd.png"
-            alt="Work Image"
-            width={300}
-            height={400}
-          />
-          <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">Draggzie</div>
-            <p className="text-base text-gray-700 dark:text-stone-300">
-              Responsive image gallery with login, drag-and-drop, search. Built
-              with React/Next.js. Easy and elegant!
-            </p>
-          </div>
-          <div className="px-6 py-4">
-            <a
-              href="https://playful-rolypoly-f83119.netlify.app/"
-              className="rounded-full bg-orange-500 px-4 py-2 font-bold text-white hover:bg-orange-600"
-            >
-              View Details
-            </a>
-          </div>
-        </div>
-        {/* p 4 */}
-        <div className="max-w-md overflow-hidden  rounded-xl bg-white shadow-lg dark:bg-stone-700">
-          <Image
-            className="h-48 w-full object-cover"
-            src="/hng.png"
-            alt="Work Image"
-            width={300}
-            height={400}
-          />
-          <div className="px-6 py-4">
-            <div className="mb-2 text-xl font-bold">profile card</div>
-            <p className="text-base text-gray-700 dark:text-stone-300">
-              hngx frontend intership program, task 1
-            </p>
-          </div>
-          <div className="px-6 py-4">
-            <a
-              href="https://meek-gumption-e15c88.netlify.app/"
-              className="rounded-full bg-orange-500 px-4 py-2 font-bold text-white hover:bg-orange-600"
-            >
-              View Details
-            </a>
-          </div>
-        </div>
+        ))}
       </div>
     </AppLayout>
   );
