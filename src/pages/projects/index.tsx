@@ -1,9 +1,7 @@
 import AppLayout from "@/components/layouts/AppLayout";
-import Image from "next/image";
+
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { ProjectCardProps } from "@/interface/app.interface";
-import { title } from "process";
 
 const projects = [
   {
