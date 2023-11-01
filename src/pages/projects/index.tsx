@@ -1,5 +1,4 @@
 import AppLayout from "@/components/layouts/AppLayout";
-
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
