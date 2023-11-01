@@ -15,7 +15,7 @@ function Index() {
               Hi, i am Sheriffdeen <TypingText />
             </h1>
             <p className="mt-8 text-lg font-medium">
-              Experienced Frontend Developer with 1+ year of expertise in
+              Experienced Frontend Developer with 2+ year of expertise in
               creating engaging and user-friendly web applications. Proficient
               in turning design ideas into responsive, visually precise
               interfaces. Committed to crafting smooth user journeys and keeping
